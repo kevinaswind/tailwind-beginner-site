@@ -41,8 +41,7 @@
         <!-- header/navigation ====================================== -->
         <!-- ====================================== -->
         <div class="text-gray-600 relative">
-            <div
-                class="container mx-auto flex justify-between px-6 lg:px-0 py-6">
+            <div class="container mx-auto flex justify-between px-10 py-6">
                 <!-- left section -->
                 <div class="space-x-4 flex items-center">
                     <a href="#"
@@ -77,7 +76,7 @@
 
             <div class="absolute bottom-0 inset-x-0 bg-purple-700 h-64"></div>
 
-            <div class="container mx-auto px-6 lg:px-0 py-24 text-center">
+            <div class="container mx-auto px-10 py-24 text-center">
                 <h1 class="mb-4 text-5xl lg:text-6xl font-extrabold">
                     <span
                         class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-teal-500">Beginner</span>
@@ -119,7 +118,7 @@
 
     <div class="relative bg-purple-700 lg:pt-12 pb-24">
         <div class="absolute bottom-0 inset-x-0 h-64 bg-gray-300"></div>
-        <div class="relative container px-6 lg:px-0 mx-auto">
+        <div class="relative container px-10 mx-auto">
             <h2 class="mb-8 text-2xl lg:text-6xl font-bold text-purple-100">
                 Writing CSS is
                 tough stuff!</h2>
@@ -424,7 +423,7 @@
     <!-- what you'll build ====================================== -->
     <!-- ====================================== -->
     <div class="py-24 bg-gray-300 text-gray-700">
-        <div class="container mx-auto px-6 lg:px-0">
+        <div class="container mx-auto px-10">
             <div class="mb-8 text-center">
                 <h2 class="mb-2 text-5xl text-gray-800">What we'll build in this
                     course</h2>
@@ -471,9 +470,11 @@
     <!-- ====================================== -->
     <div class="relative py-32 bg-blue-600 text-blue-100">
         <div class="absolute top-0 inset-x-0 h-48 bg-gray-300"></div>
-        <div class="container mx-auto px-6 lg:px-0 flex items-center space-x-8">
+        <div
+            class="container mx-auto px-10 flex flex-col lg:flex-row items-center space-x-0 lg:space-x-8 space-y-4 lg:space-y-0">
             <!-- left box -->
-            <div class="w-1/3 pt-12 text-right text-xl space-y-3">
+            <div
+                class="order-2 lg:order-1 lg:w-1/3 pt-12 text-center lg:text-right text-xl space-y-3">
                 <p><strong class="font-bold text-white">75 videos</strong> at a
                     smooth pace</p>
                 <p><strong class="font-bold text-white">9.25 hours</strong> of
@@ -484,7 +485,7 @@
 
             <!-- price box -->
             <div
-                class="relative w-1/3 p-8 space-y-6 bg-white text-gray-700 border-8 border-purple-700 text-center transform hover:scale-105 transition duration-300">
+                class="order-1 lg:order-2 relative w-full lg:w-1/3 p-8 space-y-6 bg-white text-gray-700 border-8 border-purple-700 text-center transform hover:scale-105 transition duration-300">
                 <div
                     class="absolute flex justify-center items-end top-0 inset-x-0 transform -translate-y-full space-x-8">
                     <div
@@ -504,7 +505,8 @@
             </div>
 
             <!-- right box -->
-            <div class="w-1/3 pt-12 text-xl space-y-3">
+            <div
+                class="order-3 lg:w-1/3 pt-12 text-center lg:text-xl space-y-3">
                 <p>Use the code in <strong class="font-bold text-white">your
                         projects</strong></p>
                 <p>Access to <strong
@@ -517,12 +519,227 @@
     </div>
 
     <!-- ====================================== -->
+    <!-- modules / videos ====================================== -->
+    <!-- ====================================== -->
+    <div class="py-32 bg-gradient-to-b from-gray-700 to to-gray-800">
+        <div class="container px-10 mx-auto">
+            <div class="text-center mb-12">
+                <h2
+                    class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-200 to-purple-300">
+                    The Modules/Videos</h2>
+                <p class="text-2xl text-purple-100">9.25 hours of Tailwind
+                    learning in 19 modules/75 videos.</p>
+            </div>
+
+            <div>
+                <div
+                    class="max-w-3xl p-8 mx-auto flex justify-between items-center bg-gray-900 text-gray-400">
+                    <div>
+                        <h4 class="text-3xl">Getting Started</h4>
+                    </div>
+                    <div class="flex space-x-8 text-center text-2xl font-bold">
+                        <div>6 <span
+                                class="block font-normal text-sm text-gray-500">videos</span>
+                        </div>
+                        <div>33 <span
+                                class="block font-normal text-sm text-gray-500">minutes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====================================== -->
     <!-- faq ====================================== -->
     <!-- ====================================== -->
+    <div class="bg-gray-800 py-32 text-gray-200">
+        <div class="container mx-auto px-10">
+            <h2 class="text-3xl font-bold text-center mb-12">Frequently Asked
+                Questions</h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- question -->
+                <div class="p-6 border-2 border-gray-200 rounded-lg">
+                    <h3 class="text-xl font-bold text-gray-100 mb-3">Is there
+                        course
+                        support?</h3>
+                    <p>You can email me directly at any time and we also have a
+                        <a href="#"
+                            class="text-blue-400 hover:underline">Discord
+                            community</a> where you gain
+                        exclusive
+                        channel access.</p>
+                </div>
+
+                <!-- question -->
+                <div class="p-6 border-2 border-gray-200 rounded-lg">
+                    <h3 class="text-xl font-bold text-gray-100 mb-3">Is there
+                        course
+                        support?</h3>
+                    <p>You can email me directly at any time and we also have a
+                        <a href="#"
+                            class="text-blue-400 hover:underline">Discord
+                            community</a> where you gain
+                        exclusive
+                        channel access.</p>
+                </div>
+
+                <!-- question -->
+                <div class="p-6 border-2 border-gray-200 rounded-lg">
+                    <h3 class="text-xl font-bold text-gray-100 mb-3">Is there
+                        course
+                        support?</h3>
+                    <p>You can email me directly at any time and we also have a
+                        <a href="#"
+                            class="text-blue-400 hover:underline">Discord
+                            community</a> where you gain
+                        exclusive
+                        channel access.</p>
+                </div>
+
+                <!-- question -->
+                <div class="p-6 border-2 border-gray-200 rounded-lg">
+                    <h3 class="text-xl font-bold text-gray-100 mb-3">Is there
+                        course
+                        support?</h3>
+                    <p>You can email me directly at any time and we also have a
+                        <a href="#"
+                            class="text-blue-400 hover:underline">Discord
+                            community</a> where you gain
+                        exclusive
+                        channel access.</p>
+                </div>
+
+                <!-- question -->
+                <div class="p-6 border-2 border-gray-200 rounded-lg">
+                    <h3 class="text-xl font-bold text-gray-100 mb-3">Is there
+                        course
+                        support?</h3>
+                    <p>You can email me directly at any time and we also have a
+                        <a href="#"
+                            class="text-blue-400 hover:underline">Discord
+                            community</a> where you gain
+                        exclusive
+                        channel access.</p>
+                </div>
+
+                <!-- question -->
+                <div class="p-6 border-2 border-gray-200 rounded-lg">
+                    <h3 class="text-xl font-bold text-gray-100 mb-3">Is there
+                        course
+                        support?</h3>
+                    <p>You can email me directly at any time and we also have a
+                        <a href="#"
+                            class="text-blue-400 hover:underline">Discord
+                            community</a> where you gain
+                        exclusive
+                        channel access.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- ====================================== -->
     <!-- footer/newsletter ====================================== -->
     <!-- ====================================== -->
+    <div
+        class="relative bg-gradient-to-br from-gray-100 to-gray-300 py-24 text-gray-600">
+        <div
+            class="absolute top-0 left-0 transform translate-x-6 translate-y-6">
+            <div
+                class="absolute w-32 h-32 rounded-full opacity-50 bg-gradient-to-br from-teal-100 to-teal-200">
+            </div>
+            <div
+                class="absolute ml-12 w-32 h-32 rounded-full opacity-50 bg-gradient-to-br from-purple-100 to-purple-200">
+            </div>
+            <div
+                class="absolute ml-6 mt-12 w-32 h-32 rounded-full opacity-50 bg-gradient-to-br from-red-100 to-red-200">
+            </div>
+        </div>
+
+        <div class="relative container mx-auto px-10">
+
+            <!-- top footer -->
+            <div class="lg:flex justify-between space-y-8 lg:space-y-0">
+                <!-- newsletter -->
+                <div class="flex flex-col justify-center">
+                    <h3
+                        class="text-2xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500 mb-3">
+                        Get
+                        updates on
+                        this course</h3>
+                    <form action="" method="POST" class="flex">
+                        <input type="email" name="email"
+                            placeholder="email@email.com"
+                            class="w-full p-3 rounded-l outline-none border-2 border-r-0 border-gray-400 focus:border-purple-400">
+                        <button
+                            class="p-3 bg-purple-400 text-white rounded-r">Subscribe</button>
+                    </form>
+                </div>
+
+                <!-- links -->
+                <div
+                    class="md:flex md:justify-center space-x-0 md:space-x-8 space-y-6 md:space-y-0 text-center md:text-right">
+                    <div class="space-y-2">
+                        <p
+                            class="mb-3 uppercase font-bold text-gray-400 tracking-widest">
+                            Company
+                        </p>
+                        <a href="#"
+                            class="block hover:text-gray-800 hover:underline">About</a>
+                        <a href="#"
+                            class="block hover:text-gray-800 hover:underline">Blog</a>
+                        <a href="#"
+                            class="block hover:text-gray-800 hover:underline">Careers</a>
+                    </div>
+
+                    <div class="space-y-2">
+                        <p
+                            class="mb-3 uppercase font-bold text-gray-400 tracking-widest">
+                            Company
+                        </p>
+                        <a href="#"
+                            class="block hover:text-gray-800 hover:underline">About</a>
+                        <a href="#"
+                            class="block hover:text-gray-800 hover:underline">Blog</a>
+                        <a href="#"
+                            class="block hover:text-gray-800 hover:underline">Careers</a>
+                    </div>
+
+                    <div class="space-y-2">
+                        <p
+                            class="mb-3 uppercase font-bold text-gray-400 tracking-widest">
+                            Company
+                        </p>
+                        <a href="#"
+                            class="block hover:text-gray-800 hover:underline">About</a>
+                        <a href="#"
+                            class="block hover:text-gray-800 hover:underline">Blog</a>
+                        <a href="#"
+                            class="block hover:text-gray-800 hover:underline">Careers</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- bottom footer -->
+            <div
+                class="md:flex text-center justify-between space-y-2 md:space-y-0 border-t-2 border-gray-300 pt-4 mt-12 text-sm text-gray-500">
+                <!-- copyright -->
+                <div>
+                    copyright &copy; 2020-2045 ezices
+                </div>
+
+                <!-- links -->
+                <div class="space-x-4">
+                    <a href="#">Twitter</a>
+                    <a href="#">Discord</a>
+                    <a href="#">Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="index.js"></script>
 </body>
